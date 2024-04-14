@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Seize The Rosette</title>
+</head>
+
+<body>
+    <div><img src="logo.png" alt="logo" style="margin:auto; display: flex;"> </div>
+<div style="display: flex;align-content: center;justify-content: center;align-items: center;">
+    <h1 style="font-size: 50px;margin: 0 40px 0 0;" class="timer">Time: <span class="countdown">10</span></h1>
+<div class="controls">
+    <button onClick="startGame()">Start!</button>
+</div>
+<h1 style="font-size: 50px;margin: 0 0 0 40px;">Your Score: <span class="score">0</span></h1>
+</div>
+<img src="xanh.png" style="display: flex;position: absolute;width: 600px;left: -125px;top: 200px;transform: rotate(354deg);">
+<img src="hong.png" style="display: flex;position: absolute;width: 550px;right: -100px;top: 250px;transform: rotate(8deg);">
+<div class="game">
+    <div class="hole hole1">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole2">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole3">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole4">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+        <div class="mole"></div>
+    </div>
+    <div class="popup">
+        <div class="popup-content">
+            <h2>Game Over!</h2>
+            <p>Your score is: <span class="final-score">0</span></p>
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
